@@ -1,0 +1,442 @@
+{
+  "categories": [
+    {
+      "name": "Hornos y Fermentación",
+      "icon": "🔥",
+      "desc": "Hornos, fermentadores y controles de cocción",
+      "equipment": [
+        "Hornos Polin WIND 5",
+        "Hornos Cana y Navarro",
+        "Fermentadores Polin"
+      ]
+    },
+    {
+      "name": "Equipos Electromecánicos",
+      "icon": "⚡",
+      "desc": "Urnas, sandwichera, planchas, salamandras, tostadores y microondas",
+      "equipment": [
+        "Urnas de Panadería",
+        "Sandwicheras y Planchas",
+        "Salamandras y Hornos Tostadores",
+        "Microondas"
+      ]
+    },
+    {
+      "name": "Refrigeración y Congelado",
+      "icon": "❄️",
+      "desc": "Omega, Ugolini, Fogel, cámaras y controles",
+      "equipment": [
+        "Congeladores de Producción Omega",
+        "Cámaras Autocontenidas, RTE y Urnas",
+        "Cámaras Remotas Omega",
+        "Granizadoras Ugolini",
+        "Cuartos Fríos y Cámaras de Congelado",
+        "Aires Acondicionados",
+        "Equipos Fogel"
+      ]
+    }
+  ],
+  "equipment": {
+    "Hornos Polin WIND 5": {
+      "brand": "Polin",
+      "category": "Hornos y Fermentación",
+      "temp": "200°C",
+      "steps": [
+        "Alimentación del equipo",
+        "Revisión estructural y externa",
+        "Puertas, trancas, recibidores y Z15",
+        "Iluminación y limpieza de vidrios",
+        "Perilla y sistema de chimenea",
+        "Panel eléctrico y limpieza de componentes",
+        "Tarjeta o botonera",
+        "Timbre de fin de cocción",
+        "Limpieza de cámara de cocción",
+        "Resistencias eléctricas y mediciones",
+        "Capacitores y variador de frecuencia",
+        "Motores y abanicos",
+        "Válvula solenoide y sistema de vapor",
+        "Prueba final de funcionamiento"
+      ],
+      "params": [
+        "Temperatura máxima programable: 200°C",
+        "Tiempo apagamiento automático luz: 1 minuto",
+        "STANDBY: 30 minutos",
+        "Alarma alta temperatura interna: 70°C",
+        "Velocidad ventilador: VELOC. 1"
+      ],
+      "notes": [
+        "Resistencias: verificar tolerancia y consumo según procedimiento técnico.",
+        "Al finalizar, probar temperatura, tiempo, alarma, ventilación y vapor."
+      ]
+    },
+    "Hornos Cana y Navarro": {
+      "brand": "Cana / Navarro",
+      "category": "Hornos y Fermentación",
+      "steps": [
+        "Alimentación del equipo",
+        "Estado estructural externo",
+        "Puertas, trancas y microswitch/Z15",
+        "Limpieza de vidrio",
+        "Compuerta o damper de chimenea",
+        "Panel eléctrico y componentes",
+        "Interruptores, selectores y controladores",
+        "Timbre de fin de cocción",
+        "Limpieza de cámara de cocción",
+        "Revisión de resistencias",
+        "Válvula solenoide",
+        "Termocupla o sensor de temperatura",
+        "Prueba final de funcionamiento"
+      ],
+      "notes": [
+        "Revisar control AUTONICS TC3 y Timer CT6Y-1P4 cuando estén instalados."
+      ]
+    },
+    "Fermentadores Polin": {
+      "brand": "Polin",
+      "category": "Hornos y Fermentación",
+      "steps": [
+        "Estado externo",
+        "Estado interno y limpieza",
+        "Puertas, bisagras y empaques",
+        "Válvula solenoide",
+        "Sistema de llenado",
+        "Porta bandejas",
+        "Abanicos axiales",
+        "Botoneras, termostato o tarjeta",
+        "Revisión de parámetros",
+        "Prueba de funcionamiento"
+      ],
+      "notes": [
+        "El empaque de referencia es tipo Kanelón o K."
+      ]
+    },
+    "Urnas de Panadería": {
+      "brand": "Varios",
+      "category": "Equipos Electromecánicos",
+      "steps": [
+        "Alimentación",
+        "Estructura",
+        "Revisión interna",
+        "Resistencias y controles",
+        "Prueba de funcionamiento",
+        "Limpieza",
+        "Orden y aseo"
+      ]
+    },
+    "Sandwicheras y Planchas": {
+      "brand": "Varios",
+      "category": "Equipos Electromecánicos",
+      "steps": [
+        "Alimentación",
+        "Conexiones eléctricas",
+        "Estructura y placas",
+        "Termostatos y controles",
+        "Prueba de funcionamiento",
+        "Limpieza",
+        "Orden y aseo"
+      ]
+    },
+    "Salamandras y Hornos Tostadores": {
+      "brand": "Varios",
+      "category": "Equipos Electromecánicos",
+      "steps": [
+        "Alimentación del equipo",
+        "Revisión general de estructura",
+        "Revisión de resistencias y tubos de cuarzo",
+        "Revisión de selectores",
+        "Termostato ajustable",
+        "Prueba ON/OFF y luces indicadoras",
+        "Limpieza",
+        "Orden y aseo"
+      ],
+      "notes": [
+        "Mantener libres los costados para permitir la disipación de calor."
+      ]
+    },
+    "Microondas": {
+      "brand": "Varios",
+      "category": "Equipos Electromecánicos",
+      "steps": [
+        "Alimentación",
+        "Revisión general de estructura",
+        "Fusible",
+        "Protecciones térmicas",
+        "Magnetrón y túnel de ondas",
+        "Capacitor (aprox. 1.5 a 2 μF)",
+        "Tarjeta y botones",
+        "Microswitches de puerta",
+        "Abanico",
+        "Prueba con vaso de agua",
+        "Limpieza",
+        "Orden y aseo"
+      ],
+      "notes": [
+        "No tocar el magnetrón ni medir voltaje directamente durante las pruebas."
+      ]
+    },
+    "Congeladores de Producción Omega": {
+      "brand": "Omega",
+      "category": "Refrigeración y Congelado",
+      "temp": "-10°C a -18°C",
+      "steps": [
+        "Alimentación",
+        "Estructura y obstrucciones",
+        "Puertas, bisagras y empaques",
+        "Revisión interna y sonda",
+        "Unidad condensadora",
+        "Control digital Full Gauge",
+        "Presiones de refrigerante",
+        "Limpieza de parrilla condensadora",
+        "Limpieza de equipo",
+        "Prueba de funcionamiento",
+        "Orden y aseo"
+      ],
+      "params": [
+        "Refrigerante: R-507",
+        "Descarga: 240–290 PSI",
+        "Succión: 10–25 PSI",
+        "Control MT-512 para congeladores de producción según procedimiento"
+      ]
+    },
+    "Cámaras Autocontenidas, RTE y Urnas": {
+      "brand": "Omega",
+      "category": "Refrigeración y Congelado",
+      "temp": "0°C a 5°C",
+      "steps": [
+        "Alimentación",
+        "Estructura",
+        "Puertas y empaques",
+        "Evaporador, luces, housing, abanicos y desagüe",
+        "Unidad condensadora",
+        "Control Full Gauge",
+        "Presiones",
+        "Limpieza de parrilla",
+        "Limpieza",
+        "Prueba de funcionamiento",
+        "Orden y aseo"
+      ],
+      "params": [
+        "R-507: 240–290 alta / 30–50 baja (autocontenidas y RTE)",
+        "R-134: 130–150 alta / 15–25 baja (según equipo)",
+        "R-290: 30 PSI de succión"
+      ]
+    },
+    "Cámaras Remotas Omega": {
+      "brand": "Omega",
+      "category": "Refrigeración y Congelado",
+      "temp": "0°C a 5°C",
+      "steps": [
+        "Alimentación",
+        "Estructura",
+        "Puertas y empaques",
+        "Estado interno",
+        "Unidad condensadora remota",
+        "Control Full Gauge",
+        "Presiones",
+        "Limpieza de parrilla",
+        "Limpieza y bomba de condensado",
+        "Prueba de funcionamiento",
+        "Orden y aseo"
+      ],
+      "params": [
+        "R-507: 200–250 PSI alta / 35–60 PSI baja",
+        "R-134: 120–150 PSI alta / 15–25 PSI baja"
+      ]
+    },
+    "Granizadoras Ugolini": {
+      "brand": "Ugolini",
+      "category": "Refrigeración y Congelado",
+      "steps": [
+        "Alimentación",
+        "Estructura, tanques, grifos y nivelación",
+        "Estado interno",
+        "Unidad condensadora",
+        "Controles de temperatura",
+        "Presiones y carga",
+        "Limpieza de parrillas",
+        "Limpieza de equipo",
+        "Prueba de funcionamiento",
+        "Lubricación sanitaria",
+        "Orden y aseo"
+      ],
+      "params": [
+        "R-507: 200–250 PSI alta / 35–60 PSI baja",
+        "R-448: 400 gramos al realizar cambio según equipo"
+      ],
+      "notes": [
+        "Mantener 20 cm libres y no colocar junto a salamandra, plancha o sandwichera.",
+        "Verificar disponibilidad de grasa sanitaria."
+      ]
+    },
+    "Cuartos Fríos y Cámaras de Congelado": {
+      "brand": "Omega",
+      "category": "Refrigeración y Congelado",
+      "temp": "-10°C a -18°C",
+      "steps": [
+        "Alimentación",
+        "Estructura",
+        "Puertas, rieles y empaques",
+        "Estado interno y resistencias de descongelación",
+        "Unidad condensadora",
+        "Control Full Gauge",
+        "Presiones",
+        "Limpieza de parrilla",
+        "Limpieza y bombas de condensado",
+        "Prueba de funcionamiento",
+        "Orden y aseo"
+      ],
+      "params": [
+        "R-507 Walk In Cooler: 200–250 alta / 35–60 baja",
+        "R-507 Congelado: 200–250 alta / 25–40 baja"
+      ]
+    },
+    "Aires Acondicionados": {
+      "brand": "Multimarca",
+      "category": "Refrigeración y Congelado",
+      "temp": "21°C a 24°C",
+      "steps": [
+        "Alimentación de evaporadora",
+        "Unidad evaporadora: filtros, display, turbinas y caracoles",
+        "Evaporador y bandeja",
+        "Bomba de condensado",
+        "Unidad condensadora",
+        "Tuberías, aislantes y válvulas",
+        "Presiones de refrigerante",
+        "Limpieza",
+        "Prueba de funcionamiento",
+        "Orden y aseo"
+      ],
+      "params": [
+        "R-410: 300–350 PSI alta / 100–125 PSI baja",
+        "R-22: 220–250 PSI alta / 55–75 PSI baja"
+      ],
+      "notes": [
+        "Usar EVAP POW’R-C en evaporador cuando sea necesario y NU-BRITE para condensador según procedimiento."
+      ]
+    },
+    "Configuración de Presostatos": {
+      "brand": "Ranco / Danfoss",
+      "category": "Refrigeración y Congelado",
+      "steps": [
+        "Identificar fabricante y refrigerante",
+        "Considerar temperatura y ventilación del sitio",
+        "Ajustar corte y diferencial según equipo",
+        "Verificar arranque, parada y seguridad",
+        "Registrar configuración final"
+      ],
+      "notes": [
+        "Aplicar las configuraciones técnicas del manual para Ranco dual y Danfoss dual."
+      ]
+    },
+    "Controladores Full Gauge": {
+      "brand": "Full Gauge",
+      "category": "Refrigeración y Congelado",
+      "steps": [
+        "MT-512E 2HP",
+        "TC-900E Power",
+        "MT-543E Log",
+        "Phase Log Plus",
+        "Verificación de parámetros y prueba"
+      ]
+    },
+    "Controladores Elitech": {
+      "brand": "Elitech",
+      "category": "Refrigeración y Congelado",
+      "steps": [
+        "Acceso a parámetros técnicos",
+        "Set Point",
+        "Histéresis",
+        "Protección de compresor",
+        "Deshielo",
+        "Configuración de alarma",
+        "Prueba y salida del menú"
+      ],
+      "params": [
+        "PA1: 05",
+        "DIF: 3",
+        "HSE: 5",
+        "LSE: 0",
+        "ONT: 30 min",
+        "OFT: 10 min",
+        "ODO: 1 min",
+        "DIT: 3 h",
+        "DET: 15 min",
+        "HC: 00 Refrigeración"
+      ]
+    },
+    "Equipos Fogel": {
+      "brand": "Fogel",
+      "category": "Refrigeración y Congelado",
+      "steps": [
+        "VR-26 Cámara 1 puerta",
+        "X-37 Cámara 2 puertas",
+        "CR-49 Cámara 2 puertas",
+        "CR-65 Cámara 3 puertas",
+        "Consultar manual y documentación del fabricante"
+      ]
+    }
+  },
+  "safety": [
+    "Desconectar el equipo antes de reemplazar componentes eléctricos.",
+    "Bloquear y etiquetar el breaker correspondiente.",
+    "Usar guantes, lentes y calzado de seguridad.",
+    "Esperar que el dieléctrico se evapore completamente antes de energizar.",
+    "Registrar anomalías y reportar al supervisor cuando corresponda."
+  ],
+  "fullGauge": {
+    "MT-512 Refrigeración": [
+      "F01 123",
+      "F02 Setpoint 1°C",
+      "F03 Offset 0°C",
+      "F04 Mínimo 0°C",
+      "F05 Máximo 10°C",
+      "F06 Diferencial 3°C",
+      "F09 1 minuto",
+      "F10 180 minutos",
+      "F11 15 min (21 min equipos 4 puertas o más)",
+      "F14 1 minuto",
+      "F17 15 min",
+      "F18 15 min"
+    ],
+    "MT-512 Congelado": [
+      "F01 123",
+      "F02 -18°C a -20°C",
+      "F04 -20°C",
+      "F05 -13°C",
+      "F06 3°C",
+      "F10 180 min",
+      "F11 3 min",
+      "F12 1-deshielo",
+      "F14 1 min",
+      "F17 15 min",
+      "F18 15 min"
+    ],
+    "TC-900 Congelado": [
+      "F01 123",
+      "F02 3°C",
+      "F04 -20°C",
+      "F05 -13°C",
+      "F08 180 min",
+      "F12 Sí",
+      "F13 40°C",
+      "F14 25 min",
+      "F16 0-eléctrico",
+      "F18 3 min",
+      "F19 0°C",
+      "F26 -20°C",
+      "F39 0-tiempo"
+    ],
+    "TC-900 Cuartos Fríos": [
+      "F01 123",
+      "F02 3°C",
+      "F04 -20°C",
+      "F05 -13°C",
+      "F08 180 min",
+      "F14 25 min",
+      "F18 5 min",
+      "F20 3 min",
+      "F26 -20°C",
+      "F39 0-tiempo"
+    ]
+  }
+}
